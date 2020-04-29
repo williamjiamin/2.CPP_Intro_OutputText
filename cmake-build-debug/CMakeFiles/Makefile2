@@ -74,12 +74,12 @@ clean: CMakeFiles/2_OutputText.dir/clean
 CMakeFiles/2_OutputText.dir/all:
 	$(MAKE) -f CMakeFiles/2_OutputText.dir/build.make CMakeFiles/2_OutputText.dir/depend
 	$(MAKE) -f CMakeFiles/2_OutputText.dir/build.make CMakeFiles/2_OutputText.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/william/CLionProjects/2.OutputText/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2_OutputText"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/william/CLionProjects/2.OutputText/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target 2_OutputText"
 .PHONY : CMakeFiles/2_OutputText.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2_OutputText.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/william/CLionProjects/2.OutputText/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/william/CLionProjects/2.OutputText/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2_OutputText.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/william/CLionProjects/2.OutputText/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/2_OutputText.dir/rule

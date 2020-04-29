@@ -123,6 +123,33 @@ depend:
 	$(MAKE) -f CMakeFiles/2_OutputText.dir/build.make CMakeFiles/2_OutputText.dir/build
 .PHONY : 2_OutputText/fast
 
+aaaa.o: aaaa.cpp.o
+
+.PHONY : aaaa.o
+
+# target to build an object file
+aaaa.cpp.o:
+	$(MAKE) -f CMakeFiles/2_OutputText.dir/build.make CMakeFiles/2_OutputText.dir/aaaa.cpp.o
+.PHONY : aaaa.cpp.o
+
+aaaa.i: aaaa.cpp.i
+
+.PHONY : aaaa.i
+
+# target to preprocess a source file
+aaaa.cpp.i:
+	$(MAKE) -f CMakeFiles/2_OutputText.dir/build.make CMakeFiles/2_OutputText.dir/aaaa.cpp.i
+.PHONY : aaaa.cpp.i
+
+aaaa.s: aaaa.cpp.s
+
+.PHONY : aaaa.s
+
+# target to generate assembly for a file
+aaaa.cpp.s:
+	$(MAKE) -f CMakeFiles/2_OutputText.dir/build.make CMakeFiles/2_OutputText.dir/aaaa.cpp.s
+.PHONY : aaaa.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 2_OutputText"
+	@echo "... aaaa.o"
+	@echo "... aaaa.i"
+	@echo "... aaaa.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/william/CLionProjects/2.OutputText/aaaa.cpp">
+			<Option target="2_OutputText"/>
+		</Unit>
 		<Unit filename="/Users/william/CLionProjects/2.OutputText/main.cpp">
 			<Option target="2_OutputText"/>
 		</Unit>
